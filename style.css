@@ -1,0 +1,117 @@
+html {
+    background-color: #eaeaea;
+}
+
+body {
+  background-color: #eaeaea;
+  font-family: "Inter";
+}
+.profile {
+  padding: 0 15px;
+}
+.user .profile .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.publishing .image img {
+  width: 100%;
+}
+
+.publishing .description {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.publishing .description p {
+  margin: 11px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.interaction svg {
+  width: 15px;
+}
+
+.interaction p {
+  color: #7d8994;
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 7px;
+  margin: 10px 0;
+}
+
+.interaction,
+.comments,
+.like,
+.save {
+  display: flex;
+}
+
+div.interaction {
+  margin: 0 40px;
+  justify-content: space-between;
+}
+
+.interaction .save svg {
+  width: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+
+.nameimg {
+    display: flex;
+  }
+
+  .username {
+    margin-left: 5px;
+  }
+
+  .username p {
+    color: #7d8994;
+    font-weight: 600;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+  }
+
+  .options svg {
+    text-align: right;
+  }
+
+
+.container {
+    width: 100%;
+    max-width: 460px;
+    min-width: 370px;
+    margin: auto;
+  }
+
+  .card {
+    margin: 30% auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 96%;
+  }
+
+
+  .user .profile .info .nameimg .image img {
+    display: flex;
+    margin: 10px auto;
+    border-radius: 100%;
+    width: 30px;
+  }
+
+  .user .username {
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0;
+  }
+
+  .user .username p,
+  h3 {
+    margin: 0;
+  }
