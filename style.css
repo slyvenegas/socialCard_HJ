@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* Fuente */
+
+
+/* inicio de código CSS */
 html {
     background-color: #eaeaea;
 }
 
 body {
   background-color: #eaeaea;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
+
 .profile {
   padding: 0 15px;
 }
@@ -24,7 +30,7 @@ body {
 
 .publishing .description p {
   margin: 11px;
-  font-size: 0.8rem;
+  font-size: 17px;
   font-weight: 600;
 }
 .interaction svg {
@@ -55,63 +61,58 @@ div.interaction {
   width: 10px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-
-
 .nameimg {
-    display: flex;
-  }
+  display: flex;
+}
 
-  .username {
-    margin-left: 5px;
-  }
+.username {
+  margin-left: 5px;
+}
 
-  .username p {
-    color: #7d8994;
-    font-weight: 600;
-  }
+.username p {
+  color: #7d8994;
+  font-weight: 600;
+}
 
-  .options {
-    display: flex;
-    align-items: center;
-  }
+.options {
+  display: flex;
+  align-items: center;
+}
 
-  .options svg {
-    text-align: right;
-  }
-
+.options svg {
+  text-align: right;
+}
 
 .container {
-    width: 100%;
-    max-width: 460px;
-    min-width: 370px;
-    margin: auto;
-  }
+  width: 100%;
+  max-width: 460px;
+  min-width: 370px;
+  margin: auto;
+}
 
-  .card {
-    margin: 30% auto;
-    background-color: #ffffff;
-    border-radius: 8px;
-    width: 96%;
-  }
+.card {
+  margin: 30% auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 96%;
+}
 
+.user .profile .info .nameimg .image img {
+  display: flex;
+  margin: 10px auto;
+  border-radius: 100%;
+  width: 30px;
+}
 
-  .user .profile .info .nameimg .image img {
-    display: flex;
-    margin: 10px auto;
-    border-radius: 100%;
-    width: 30px;
-  }
+.user .username {
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 0;
+}
 
-  .user .username {
-    font-size: 11px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px 0;
-  }
-
-  .user .username p,
-  h3 {
-    margin: 0;
-  }
+.user .username p,
+h3 {
+  margin: 0;
+}
